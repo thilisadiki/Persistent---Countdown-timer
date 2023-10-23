@@ -1,0 +1,46 @@
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #countdown span {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  #countdown span:first-of-type {
+    margin-left: 0;
+  }
+  
+  #countdown span:last-of-type {
+    margin-right: 0;
+  }
+
+  #countdown span {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font for numbers */
+  }
+  
+  #countdown span:first-of-type:after {
+    content: ' Days';
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  #countdown span:nth-of-type(2):after {
+    content: ' Hours';
+    font-family: 'Macondo', cursive; 
+  }
+  
+  #countdown span:nth-of-type(3):after {
+    content: ' Mins';
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  #countdown span:last-of-type:after {
+    content: ' Secs';
+    font-family: 'Walter Turncoat', cursive; 
+  }
