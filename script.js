@@ -6,9 +6,9 @@
       // Parse back to date object
       countDownDate = new Date(countDownDate);
     } else {
-      // No date, set it to 5 days from now
+      // No date, set to 10 days from now
       countDownDate = new Date();
-      countDownDate.setDate(countDownDate.getDate() + 5);
+      countDownDate.setDate(countDownDate.getDate() + 10);
       
       // Save to localStorage
       localStorage.setItem('countdownDate', countDownDate); 
